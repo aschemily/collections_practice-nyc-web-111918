@@ -80,3 +80,20 @@ array.inject(0) {|result, element|
   result + element
 }
 end 
+
+def add_s(array)
+  
+
+  array.collect do |word |
+
+    #puts "#{word + "s"} #{i}"
+
+    if word[2] == 2 
+      word 
+      else 
+      word + "s"
+    end 
+
+  end 
+  
+end 
