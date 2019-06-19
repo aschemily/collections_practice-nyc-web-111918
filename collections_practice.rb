@@ -16,4 +16,17 @@ def sort_array_desc(array)
  end 
 end
 
+def sort_array_char_count(array)
+  new_array = []
+array.each do |word|
+   # puts "#{word.length}"
+    word_length = word.length 
+
+    new_array << word_length 
+ 
+end
+new_array
+
+end
+
 
