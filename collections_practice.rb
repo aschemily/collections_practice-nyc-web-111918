@@ -72,3 +72,12 @@ array.select do |word|
     end 
 end 
 end 
+
+def sum_array(array)
+
+array.inject(0) {|result, element|
+  #puts "result#{result} E#{element}"
+  result + element
+
+}
+end 
